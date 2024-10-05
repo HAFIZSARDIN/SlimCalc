@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SlimCalc</title>
+        <link rel="stylesheet" href="AssignmentBMI.css">
+        <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <script src="BMI.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <img src = "TULISAN BMI MAIN.png">
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="nav-link">HOME</a></li>
+                    <li><a href="HealthTips.html" class="nav-link">TIPS</a></li>
+                    <li><a href="BMI.html"class="nav-link">BMI Calc</a></li>
+                </ul>
+            </nav>
+        </header>s
+        
+        <section>
+            <div class="main-content">
+                <div class="text">
+                    <h1>WHAT IS BMI?</h2>
+                    <h3>BMI (Body Mass Index)</h4>
+                    <p>is a simple numerical measure of a person's weight relative to their height. 
+                        It is commonly used to assess whether an individual has a healthy body weight
+                    </p>
+                </div>
+                <div class="image">
+                    <img src = "org tertanya.png">
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <div class="section">
+                <div class="tulisan">
+                    <h2>BMI CALCULATE FORMULA:</h1>
+                    <p>
+                        
+
+                        BMI
+                        =
+                        Weight (kg)
+                        Height (m)
+                        2
+                        BMI= 
+                        Height (m) 
+                        2
+                         
+                        Weight (kg)
+                        ​
+                         
+                        <br> Alternatively, for weight in pounds and height in inches, the formula is:
+                        
+                        BMI
+                        =
+                        Weight (lb)
+                        ×
+                        703
+                        Height (in)
+                        2
+                        BMI= 
+                        Height (in) 
+                        2
+                         
+                        Weight (lb)×703
+                        ​
+                        
+                    </p>
+                </div>
+                <div class="image1">
+                    <img src = "gambau calcalutor.png" style="width:280px" >
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="section1">
+                <div class="tulisan1">
+                    <h1>BMI Categories: </h1>
+                    <p> Underweight: BMI < 18.5 
+                    <br></18.5>Normal weight: 18.5 ≤ BMI < 24.9
+                    <br> Overweight: 25 ≤ BMI < 29.9
+                    <br>   Obesity: BMI ≥ 30
+                    </p>
+                </div>
+                <div class="image2">
+                    <img src = "gamba.png">
+                </div>
+            </div>
+        </section>
+    
+    <section class="bmi-section">
+        <div class="back">
+            <img src="doctor.png">
+        </div>
+
+        <div class="container">
+        <h1>BMI Calculator</h1>
+
+        <form class="Calculator">
+            <div>
+                <label for="weight">Weight (KG)</label>
+                <input type="number" id="weight" min="0" step="0.01" value="0"/>
+            </div>
+
+            <div>
+                <label for="height">Height (cm)</label>
+                <input type="number" id="height" min="0" step="0.01" value="0"/>
+            </div>
+
+            <div>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button> 
+            </div>
+        </form>
+
+
+        <section class="output">
+            <h3>Your BMI is</h3>
+            <p id="bmi">0</p>
+            <p id="desc">N/A</p>
+        </section>
+
+        <section class="bmi-scale">
+            <div style="--color: var(--underweight)">
+                <h4>Underweight</h4>
+                <p>&lt;18.5</p>
+            </div>
+
+            <div style="--color: var(--normal)">
+                <h4>normal</h4>
+                <p>18.5 - 25</p>
+            </div>
+
+            <div style="--color: var(--overweight)">
+                <h4>overweight</h4>
+                <p>25 - 30</p>
+            </div>
+ 
+            <div style="--color: var(--obese)">
+                <h4>obese</h4>
+                <p>&gt; 30</p>
+            </div>
+
+            
+        </section>
+    </section>
+    </div>
+    </body>
+</html>
